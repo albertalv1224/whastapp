@@ -1,0 +1,4 @@
+Servicio que usa la api de Whatsapp Cloud para enviar mensajes masivos y contestar con respuestas predeterminadas. Para usarla se necesita : 1. Cuenta de empresa verificada registrada en meta developers 2. Haber iniciado un nuevo proyecto de whatsapp en meta developers
+3. Tener el servicio ejecutandose con una ip publica para llamar al webhook (se puede exponer facilmente el servicio con ngrok). 4. La url del webhook debe de registrarse en los settings del panel de control de la api de whatsapp 
+5. La api de whatsapp proporcionará un token de verificación que caduca cada 24h, se debe de colocar el token válido en el application.properties 5. Se debe de elegir un token propio, puede ser cualquier palabra, igual se configura en application.properties
+y asi mismo debe de registrar ese token en los settings del panel de control de la api de whatsapp
